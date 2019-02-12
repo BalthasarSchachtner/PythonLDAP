@@ -4,3 +4,4 @@ ENV PYTHONUNBUFFERED 1
 RUN apt-get update && apt-get install -y libldap2-dev libsasl2-dev
 
 RUN pip install python-ldap
+RUN pip install cookies
